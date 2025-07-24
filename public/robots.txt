@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: /sitemap.xml
+
+# Important pages
+Allow: /
+Allow: /predict
+Allow: /about
+
+# Block sensitive or unnecessary paths
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /api/
+
+# Crawl delay
+Crawl-delay: 1
